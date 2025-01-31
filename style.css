@@ -1,0 +1,31 @@
+.highlight {
+	background-color: yellow;
+}
+
+.error {
+	background-color: lightcoral;
+	border-color: red;
+}
+
+.container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    border: 2px solid black; /* Add a solid black border */
+    padding: 2px; 
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); 
+	background-color: antiquewhite;
+}
+
+h1, div, p, input, button {
+    text-align: center; 
+    margin: 10px 0; 
+}
+button{
+	padding: 6px 14px 6px 14px;
+}
